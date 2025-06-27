@@ -77,7 +77,7 @@ function Responsabilidad() {
 
   {/* Botón */}
   <div className="btn">
-    <button><NavLink to="/servitecolombia/contact" onClick={() => setMenuAbierto(false)}>Contactanos!!</NavLink></button>
+    <button><NavLink to="/servitecolombia/contact">Contactanos!!</NavLink></button>
   </div>
 </div>
 

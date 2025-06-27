@@ -10,7 +10,7 @@ function Home() {
           <p>Comprometidos con el correcto funcionamiento de tus equipos, somo una emporesa especializada en
               comprometidos con un servicio eficaz y responsable</p>
             <div className="btn">
-              <button><NavLink to="/servitecolombia/contact" onClick={() => setMenuAbierto(false)}>Contactanos ya!!</NavLink></button>
+              <button><NavLink to="/servitecolombia/contact">Contactanos ya!!</NavLink></button>
             </div>
         </div>
         <div id="somos-proya">
@@ -31,7 +31,7 @@ function Home() {
             <div class="img-container"></div>
           </div>
           <div className="btn">
-            <button><NavLink to="/servitecolombia/about" onClick={() => setMenuAbierto(false)}>About</NavLink></button>
+            <button><NavLink to="/servitecolombia/about">About</NavLink></button>
           </div>
         </div>
        <div id="nuestros-programas">
